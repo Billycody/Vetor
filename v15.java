@@ -1,7 +1,7 @@
 import java.util.*;
 public class Exercicio15{
     public static void main(String []args){
-        Scanner in = new Scanner(System.in);
+        Scanner leia = new Scanner(System.in);
         int a[] = new int[10];
         int b[] = new int[10];
         int c[] = new int[10];
@@ -9,7 +9,7 @@ public class Exercicio15{
 
         for(n = 0; n<10; n++){
             System.out.printf("Informe o %d numero\n",+1);
-            a[n] = in.nextInt();
+            a[n] = leia.nextInt();
         }
 
             Arrays.sort(a);
