@@ -11,7 +11,7 @@ public class v8{
     
     for(i=0; i<10; i++){
     	System.out.println("Informe o numero");
-        a[i] = in.nextInt();
+        a[i] = leia.nextInt();
 
     
 
