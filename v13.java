@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class Exercicio13{
 	public static void main(String[] args){
-	Scanner in = new Scanner(System.in);
+	Scanner leia = new Scanner(System.in);
 
     int a[] = new int [10];
     int b[] = new int [10];
@@ -11,7 +11,7 @@ public class Exercicio13{
     for(i=0; i<10; i++){
 
         System.out.println("Informe o numero ");
-        a[i] = in.nextInt();
+        a[i] = leia.nextInt();
 
         if(a[i]%2==0){
             b[i] = 1;
